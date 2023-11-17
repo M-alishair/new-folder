@@ -1,0 +1,31 @@
+/* Descendant Selector: Selects all elements that are descendants of a specific element. For example, div p selects all p elements that are descendants of div elements.
+
+Child Selector: Selects all direct children of a specific element. For example, div > p selects all p elements that are direct children of div elements.
+
+Adjacent Sibling Selector: Selects an element that is immediately after another element. For example, h1 + p selects the p element that comes immediately after an h1 element.
+
+General Sibling Selector: Selects all siblings that come after a specific element. For example, h1 ~ p selects all p elements that come after an h1 element. */
+
+
+
+div p{
+    display: block;
+}
+
+
+/* .pdiv  p{
+    background-color: brown;
+} */
+
+/* .pdiv > p{
+    background-color: brown;
+} */
+
+/* .pdiv + p{
+    background-color: brown;
+} */
+
+
+.pdiv ~ p{
+    background-color: brown;
+}
